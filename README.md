@@ -37,7 +37,10 @@ Modules init parameters:
 Howto test:
   1. from the root prompt type: bfspi-test </dev/bfspix.y> <test_no> <test_parm>
    where :
+
     /dev/bfspix.y: is the char device driver x: is the cardno, y is the port no (1 .. 5);
                    please ceck bfsi docs. for details about port no and card no
-    tesno: 1 -> tes the ip0X led 
+
+    tesno 1 -> tes the ip0X led 
            2 -> spi read / write test
+
