@@ -10,12 +10,12 @@ the drivers is based on bfsi.c created by David Rowe and all contributors
 requiremnet:
 1. switchfin build package 
 2. avrgcc toolchains
-3. olimex-usb-jtag
+3. olimex avr-jtag-usb
 
 there is two parts :
   1. bfspi spi linux driver module as spi master
   2. bfspi test file.
-  3. atmega 128 as spi slave device test file
+  3. atmega 128 as spi slave device test file (based on arduino examples files available on the web)
 
 Howto build ip0x staff:
   1. Copy the downloaded git package_bfspi folder into switchfin package directory and renamed as bfspi
